@@ -30,7 +30,7 @@ public class tateti {
     		       ganador = hayganador(tablero);
     		
     		            if(ganador) {
-    			                     System.out.println("GANASTE!! JUGADOR"+ turno );
+    			                     System.out.println("GANASTE!! JUGADOR"+ (turno +1));
     		              }
    		       }
     		
